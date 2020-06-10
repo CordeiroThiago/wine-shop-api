@@ -28,6 +28,6 @@ if ($qtd > 0) {
     echo json_encode($types);
 } else {
     echo json_encode(
-        array('message' => 'Nenhum vinho encontrado.')
+        array('message' => 'Nenhum tipo de vinho encontrado. Favor cadastrar')
     );
 }
